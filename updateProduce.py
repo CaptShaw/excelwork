@@ -23,3 +23,5 @@ for rowNum in range(2, sheet.max_row):
         sheet.cell(row=rowNum, column=2).value = PRICE_UPDATES[produceName]
 
 wb.save('updatedProduceSales.xlsx')
+
+
